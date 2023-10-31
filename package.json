@@ -1,0 +1,17 @@
+{
+  "homepage": "https://youssefNabil2295.github.io/javaScribt",
+  "dependencies": {
+    "gh-pages": "^6.0.0"
+    
+  },
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  }
+
+
+
+}
+
+
+

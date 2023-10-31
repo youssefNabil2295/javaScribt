@@ -1,0 +1,121 @@
+body{
+    background-color: rgb(33, 32, 32);
+}
+
+/*                     nav bar   */
+.navs{
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.navbar {
+   
+    width: 150px;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+  }
+  
+  .navbar ul {
+    list-style-type: none;
+    margin: 5px;
+    padding: 0;
+  }
+  
+  .navbar li {
+    margin-bottom: 10px;
+    display: none;
+  }
+  
+  .navbar li a {
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    transition: all 500ms;
+  }
+  
+  .navbar li a:hover {
+    color: white;
+    background-color: rgb(56, 50, 50 , .8);
+    border-color: #af8f8f;
+    
+  }
+
+  .menu{
+
+    cursor: pointer;
+    width: 50px;
+    
+  }
+
+  /* -----------------search page */
+
+  .search-inputs ::placeholder{
+    color: rgb(110, 106, 106);
+  }
+
+  .meal{
+    position: relative;
+    cursor: pointer;
+  }
+  .meal .layer{
+    
+    background-color:rgba(255, 255, 255, 0.7);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    
+    top: 180%;
+    left: 0;
+    transition: all 500ms;
+    
+  }
+  .meal:hover .layer{
+
+    background-color:rgba(255, 255, 255, 0.7);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    
+    top: 0%;
+    left: 0;
+  }
+  .meal h1{
+    position: absolute;
+    top: 180%;
+    left: 50%;
+    transform: translate(-50% ,-50%);
+    transition: all 500ms;
+  }
+  .meal:hover h1{
+    top: 50%;
+  
+  }
+  .zoomInMeal li {
+    width: fit-content;
+  }
+  .meal-tag{
+    width: fit-content;
+  }
+
+  /*                                 Area */
+  .area h1{
+    position: unset;
+    top: unset;
+    left: unset;
+    transform: unset;
+    transform: unset;
+    color: white;
+  }
+
+  /*                               ingredients */
+  .ingredient h4{
+   
+    color: white;
+  }
+  
